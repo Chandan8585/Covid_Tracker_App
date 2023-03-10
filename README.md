@@ -1,2 +1,9 @@
 # Covid_Tracker_App
-Covid tracker App to learn reactjs
+Concepts Learned
+React js
+JSX
+Api Calls
+Promises
+Props
+State
+
