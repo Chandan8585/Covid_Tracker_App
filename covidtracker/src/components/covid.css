@@ -1,0 +1,120 @@
+/* ul{
+   width: 600px;
+   height: 400px;
+    
+} */
+ /* .card{ */
+    /* transform: rotate(180deg) scale(1,1); */
+    /* display: flex; */
+    /* height: 20rem;
+    width: 80rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card_main{
+  font-weight: bolder;
+  font-size: large;
+  display: flex;
+  background: wheat;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 20px rgba(0, 0,0,0.3);
+  flex-direction: row;
+  flex: 1;
+} */
+.App {
+    font-family: Avenir;
+    font-size: 16px;
+    
+  }
+  .Main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    background-color: grey;
+    
+  }
+  h1, h2{
+    flex: 1;
+    color: white;
+  }
+  section{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .styleCard {
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #ccc;
+    color: #1669cf;
+    margin: 12px 0px;
+    
+  }
+  .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  section{
+    background-color: white;
+    display: flex;
+display: grid;
+    
+  }
+  ul{
+    /* display: flex;
+    flex: 1; */
+    flex-direction: row;
+   
+  }
+  
+  .styleCardContent {
+    padding: 4px 16px 20px 16px;
+    background-color: lightgreen;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 1rem;
+    border: 2px solid green;
+    display: flex;
+    flex: 1;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .styleImage {
+    background-color: lightGray;
+    border-radius: 8px 8px 0 0;
+    max-height: 140px;
+    overflow: hidden;
+  }
+  
+  .styleCardTitle {
+    font-family: Avenir-Heavy;
+    font-size: 20;
+    font-weight: 600;
+    margin: 12px 0px 0px 0px;
+  }
+  
+  .styleLocationLabel {
+    color: black;
+    font-weight: bold;
+    font-size: 14;
+    margin: 4px 0;
+  }
+  
+  .styleDescription {
+    font-size: 14;
+    margin: 8px 0 0 0;
+    color: black;
+  }
+  .footer{
+    margin-bottom: 0;
+    color: white;
+  }
